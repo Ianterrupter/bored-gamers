@@ -88,7 +88,7 @@ h1, h2 {
 }
 
 #hero-image2 {
-    height: 400px;
+    height: 800px;
     width: 100%;
     background: url(../images/dominos-large.jpg) no-repeat center center;
 }
@@ -169,13 +169,21 @@ h1, h2 {
     height: 400px;
     float: left;
     border-right: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
+}
 
+#meet-under {
+    width: 33%;
+    height: 400px;
+    float: right;
+    border-left: 5px solid whitesmoke;
+    border-bottom: 5px solid whitesmoke;
 }
 
 .white-text > h2 {
     color: whitesmoke;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 25%;
 }
 
 .white-text > p {
