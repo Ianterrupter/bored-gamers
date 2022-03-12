@@ -81,7 +81,7 @@ h1, h2 {
 }
 
 #why-board {
-    height: 600px;
+    height: 300px;
     }
 
 #why-board-title {
@@ -141,4 +141,24 @@ h1, h2 {
     line-height: 20px;
     padding-top: 30px;
     text-align: justify;
+}
+
+
+footer {
+    height: 75px;
+    background-color: #36454f;
+}
+
+.mediums {
+    text-align: center;
+}
+
+.mediums > li {
+    display: inline;
+}
+
+.mediums i {
+    font-size: 180%;
+    margin: 1%;
+    color: whitesmoke;
 }
