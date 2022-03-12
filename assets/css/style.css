@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Overpass:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header {
+    font-family: Libre Baskerville, sans-serif;
+    font-weight: 500;
+}
