@@ -10,7 +10,7 @@ body {
     font-family: Overpass, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    background: url(/assets/images/dominos.jpg) no-repeat fixed;
+    background: url(/assets/images/dominos.webp) no-repeat fixed;
     background-size: contain;
 
 }
