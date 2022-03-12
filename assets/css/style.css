@@ -97,6 +97,7 @@ h1, h2 {
    float: left;
 }
 
+
 #right-about {
     padding-top: 30px;
     width: 33%;
@@ -124,10 +125,7 @@ h1, h2 {
      line-height: 20px;
      clear: both;
      text-align: justify;
- }
-
- #left-about-image {
-    background-image: url(../images/family-small.jpg);
+     margin-right: 110px
  }
 
  .right-about-heading {
@@ -136,6 +134,7 @@ h1, h2 {
     line-height: 20px;
     clear: both;
     text-align: justify;
+    margin-left: 110px;
 }
 
 .center-about-heading {
