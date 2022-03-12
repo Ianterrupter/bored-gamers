@@ -55,6 +55,15 @@ h1, h2 {
     font-weight: 1000;
 }
 
+#board-meet {
+    text-decoration: none;
+    color: inherit;
+}
+
+#board-meet:hover {
+    text-decoration: underline;
+}
+
 #cover-text, #cover-text h2 {
     color: whitesmoke
 }
