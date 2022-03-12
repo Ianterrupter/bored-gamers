@@ -175,6 +175,12 @@ h1, h2 {
 .white-text > h2 {
     color: whitesmoke;
     text-align: center;
+    padding-top: 3%;
+}
+
+.white-text > p {
+    color: whitesmoke;
+    text-align: center;
     padding-top: 2%;
 }
 
