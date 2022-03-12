@@ -168,16 +168,15 @@ h1, h2 {
     width: 33%;
     height: 400px;
     float: left;
-    border-right: 5px solid whitesmoke;
-    border-bottom: 5px solid whitesmoke;
+   
+    
 }
 
 #meet-under {
     width: 33%;
     height: 400px;
-    float: right;
-    border-left: 5px solid whitesmoke;
-    border-bottom: 5px solid whitesmoke;
+    float: under;
+    
 }
 
 .white-text > h2 {
