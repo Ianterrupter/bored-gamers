@@ -114,12 +114,20 @@ h1, h2 {
  }
 
 
+.about-heading-title {
+    text-align: center;
+}
+
  .left-about-heading {
      width: 60%;
      float: right;
      line-height: 20px;
      clear: both;
      text-align: justify;
+ }
+
+ #left-about-image {
+    background-image: url(../images/family-small.jpg);
  }
 
  .right-about-heading {
@@ -134,8 +142,4 @@ h1, h2 {
     line-height: 20px;
     padding-top: 30px;
     text-align: justify;
-}
-
-.about-heading-title {
-    text-align: center;
 }
