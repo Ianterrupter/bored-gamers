@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Overpass:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Overpass:wght@200&display=swap');
 
 * {
     margin: 0;
@@ -6,7 +6,20 @@
     border: none;
 }
 
-header {
-    font-family: Libre Baskerville, sans-serif;
-    font-weight: 500;
+body {
+    font-family: Overpass, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+h1, h2 {
+    font-family: Fredoka, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
