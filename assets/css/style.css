@@ -123,9 +123,28 @@ h1, h2 {
 #left-about-ticket {
     height: 100%;
     padding-top: 30px;
-   width: 33%;
-   float: left;
+    width: 33%;
+    float: left;
     background: url(../images/ticket-to-ride-small.jpg) no-repeat;
+    border-radius: 3%;
+}
+
+#center-about-catan {
+    height: 100%;
+    padding-top: 30px;
+    width: 33%;
+    background: url(../images/catan-small.jpg) no-repeat;
+    border-radius: 3%;
+    margin: 0 auto;
+}
+
+#right-about-warhammer {
+    height: 100%;
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background: url(../images/warhammer-small.jpg) no-repeat center center;
+    border-radius: 3%;
 }
 
 #ticket-center {
