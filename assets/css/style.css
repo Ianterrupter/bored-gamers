@@ -165,18 +165,22 @@ h1, h2 {
 }
 
 #meet-left {
-    width: 33%;
+    width: 40%;
     height: 400px;
     float: left;
-   
     
 }
 
 #meet-under {
-    width: 33%;
+    width: 40%;
     height: 400px;
     float: under;
     
+}
+
+.white-text {
+   background-color: rgba(0, 0, 0, 0.35);
+   border-radius: 5%;
 }
 
 .white-text > h2 {
