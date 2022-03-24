@@ -459,4 +459,40 @@ footer {
 
     }
     
+    
+ #center-about-meet {
+     float: left;
+    padding-top: 12%;
+    width: 100%;
+    margin: 0 auto;
+ }
+
+ #left-about-ticket {
+    height: 100%;
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    border-radius: 3%;
+}
+
+#center-about-catan {
+    height: 100%;
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+#right-about-warhammer {
+    height: 100%;
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+
+.why-board-games {
+    height: 300px;
+    width: 100%;
+}
+ 
 }
