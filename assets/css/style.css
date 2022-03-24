@@ -70,7 +70,13 @@ h1, h2 {
     text-decoration: underline;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text  {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+
+ #cover-text h2 {
     color: whitesmoke
 }
 
@@ -235,23 +241,23 @@ h1, h2 {
 }
 
 #left-about {
-   padding-top: 30px;
-   width: 33%;
-   float: left;
-}
-
-
-#right-about {
     padding-top: 30px;
     width: 33%;
-    float: right;
+    float: left;
  }
-
- #center-about {
-    width: 33%;
-    margin: 0 auto;
- }
-
+ 
+ 
+ #right-about {
+     padding-top: 30px;
+     width: 33%;
+     float: right;
+  }
+ 
+  #center-about {
+     width: 33%;
+     margin: 0 auto;
+  }
+ 
 
  #center-about-meet {
     padding-top: 1%;
@@ -393,4 +399,64 @@ footer {
     margin-left: 25px;
     cursor: pointer;
     border-radius: 5px;
+}
+
+
+@media screen and (max-width: 400px) {
+    
+    #menu {
+    font-size: 80%;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    }
+    
+    #hero-image {
+        height: 900px;
+        width: 100%;
+        background: url(../images/boardgames2.jpg) no-repeat center center;
+    }
+
+    #cover-text  {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+    }
+    
+     #cover-text h2 {
+        color: whitesmoke
+    }
+
+    #board-meet {
+        color: whitesmoke;
+    }
+
+    .why-board {
+        /* height: 300px; */
+        width: 65%;
+        margin: 0 auto
+    }
+
+    #left-about, #right-about {
+        padding-top: 30px;
+        width: 100%;
+        float: left;
+        display: block;
+    }
+    
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    
+    .left-about-heading, .right-about-heading {
+        width: 100%;
+        float: left;
+        line-height: 20px;
+        text-align: justify;
+        margin: 0;
+
+    }
+    
 }
