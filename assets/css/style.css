@@ -358,7 +358,7 @@ footer {
 .question-form {
     margin: 10% 10% 0 0;
     color: #eeeeee;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     max-width: 400px;
     position: absolute;
     margin-left: 3em;
@@ -495,4 +495,21 @@ footer {
     width: 100%;
 }
  
+
+.question-form {
+    margin: 35% 20% 20% 20%;
+    color: #eeeeee;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    position: absolute;
+    padding: 50px;
+    text-align: center;
+
+}
+
+
+.form-submit {
+    margin-left: 0;
+}
+
 }
