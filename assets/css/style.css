@@ -248,11 +248,12 @@ img {
 
 .why-board img {
 	opacity: 0.8;
-	transition: opacity ease-in-out 0.25s;
+	transition: all ease-in-out 0.25s;
 }
 
 .why-board img:hover {
 	opacity: 1;
+    transform: scale(1.05);
 }
 
 p {
