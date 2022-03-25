@@ -31,6 +31,16 @@ h1, h2 {
     color: whitesmoke;
 }
 
+#logo a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+#logo a:hover, 
+#logo a:focus {
+    text-decoration: underline;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -216,10 +226,6 @@ h1, h2 {
     right: 300px;
 }
 
-.why-board {
-    height: 300px;
-}
-
 .why-board-break {
     height: 20px;
 }
@@ -231,6 +237,19 @@ h1, h2 {
 
 #why-board3 {
     height: 300px;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 1em 0;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 1em 0;
 }
 
 #why-board-title {
@@ -402,7 +421,7 @@ footer {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
     
     #menu {
     font-size: 80%;
