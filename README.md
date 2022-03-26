@@ -1,5 +1,5 @@
 # Bored Gamers
-![Hero Image](/assets/images/boardgames2-original.jpg)
+![Hero Image](./assets/images/boardgames2-original.jpg)
 
 [Live project available here](http://ian-downey.xyz/bored-gamers/meet1.html)
 
@@ -35,7 +35,7 @@ Tested project on web.dev, receiving the following scores:
 - Best Practices: 92 
 - SEO: 100
 
-![Web.dev test](/assets/images/web-dev-test.png)
+![Web.dev test](./assets/images/web-dev-test.png)
 
 ## Bugs, Problems
 
